@@ -1,0 +1,153 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EEEEEE;
+}
+  
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 3em;
+  color: #333;
+}
+  
+header h2 {
+  font-size: 2em;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+  
+.country {
+  width: 20%;
+  height: 200px; 
+  float: left;
+  margin: 10px;
+}
+
+.country:hover {
+  background-size: auto;
+  background-position: unset;
+  cursor: pointer;
+}
+  
+.country p {
+  font-size: 2em;
+  text-align: center;
+  line-height: 7;
+  font-weight: bold;
+  color: #fff; 
+  letter-spacing: 2px;
+}
+
+.clearfix {
+  clear: both;
+}
+  
+.background-atlanta {
+  background-image: url('http://startups-list.com/img/bgcity/atlanta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-austin {
+  background-image: url('http://startups-list.com/img/bgcity/austin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-bangalore {
+  background-image: url('http://startups-list.com/img/bgcity/bangalore.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-berlin {
+  background-image: url('http://startups-list.com/img/bgcity/berlin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-chicago {
+  background-image: url('http://startups-list.com/img/bgcity/chicago.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-hongkong {
+  background-image: url('http://startups-list.com/img/bgcity/hong-kong.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-houston {
+  background-image: url('http://startups-list.com/img/bgcity/houston.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-london {
+  background-image: url('http://startups-list.com/img/bgcity/london.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-montréal {
+  background-image: url('http://startups-list.com/img/bgcity/montreal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-moscow {
+  background-image: url('http://startups-list.com/img/bgcity/moscow.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-munich {
+  background-image: url('http://startups-list.com/img/bgcity/munich.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.background-new-delhi {
+  background-image: url('http://startups-list.com/img/bgcity/new-delhi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-san-francisco{
+  background-image: url('http://startups-list.com/img/bgcity/sanfrancisco.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-santiago {
+  background-image: url('http://startups-list.com/img/bgcity/santiago.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+.background-sao-paulo {
+  background-image: url('http://startups-list.com/img/bgcity/sao-paulo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+.background-seattle {
+  background-image: url('http://startups-list.com/img/bgcity/seattle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 800px)
+{
+  .container {padding: 100px 80px;}
+  .header h1 {font-size: 3em;}
+  .header h2 {font-size: 2em;}
+  .country {width: 20%; height: 200px;}
+}
